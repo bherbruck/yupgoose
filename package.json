@@ -1,0 +1,26 @@
+{
+  "name": "~TODO~",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "ts-node src",
+    "dev:debug": "node -r ts-node/register src",
+    "build": "tsc",
+    "start": "node dist"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.12",
+    "dotenv": "^14.3.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "mongodb": "^4.3.1",
+    "yup": "^0.32.11"
+  }
+}
